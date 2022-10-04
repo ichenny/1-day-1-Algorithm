@@ -7,6 +7,7 @@ for(let i = 1; i <= Number(input[0]); i++){
     let arr = [];
     let isGroupWord = true;
 
+
     for(let j = 0; j < word.length; j++){
         if(arr.indexOf(word[j]) === -1){
             arr.push(word[j]);
